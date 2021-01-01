@@ -1,0 +1,28 @@
+<!doctype html>
+<html><head>
+<link rel="stylesheet" href="style.css"/>
+<script type="text/javascript" src="blockduku-ai.js"></script>
+<script>
+window.addEventListener('load', () => {
+	const game = new blockduku;
+});
+</script>
+</head><body>
+
+<div id="game">
+	<div id="gamegrid"></div>
+	<div id="nextshapes">
+		<button id="evaluate_selected_shapes_btn">Eval selected</button>
+		<h3>Next 1</h3>
+		<div style="display:none" class="nextshape_grid" id="nextshape1"></div>
+		<div class="nexthape_buts" id="nextshape1_buts"></div>
+		<h3>Next 2</h3>
+		<div style="display:none" class="nextshape_grid" id="nextshape2"></div>
+		<div class="nexthape_buts" id="nextshape2_buts"></div>
+		<h3>Next 3</h3>
+		<div style="display:none" class="nextshape_grid" id="nextshape3"></div>
+		<div class="nexthape_buts" id="nextshape3_buts"></div>
+	</div>
+</div>
+
+</body></html>
